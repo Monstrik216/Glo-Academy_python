@@ -1,1 +1,12 @@
-
+print('Введите одно целое трехзначное положительное число и нажмите Enter')
+num = int(input())
+first = num // 100
+second = num // 10 % 10
+thind = num % 10
+print('итого:', first + second + thind)
+print('Введите одно целое трехзначное положительное число и нажмите Enter')
+num = int(input())
+first = num // 100
+second = num // 10 % 10
+thind = num % 10
+print('итого:', first * second * thind)
