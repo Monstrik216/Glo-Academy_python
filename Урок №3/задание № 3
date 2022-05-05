@@ -1,1 +1,7 @@
-
+print('Как Ваше имя?')
+name = input('')
+print('Какая у вас фамилия?')
+surname = input('')
+print('Какое у Вас отчество?')
+patronymic = input('')
+print('Хорошего Вам дня', name, surname, patronymic, '!')
