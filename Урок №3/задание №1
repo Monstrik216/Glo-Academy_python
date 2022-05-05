@@ -1,1 +1,4 @@
-
+print('Glo Academy', sep='', end='')
+print()
+print()
+print('Glo Academy')
