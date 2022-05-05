@@ -1,1 +1,5 @@
-
+import time
+sec = 9045
+type_res = time.gmtime(sec)
+res = time.strftime("%H: %M: %S", type_res)
+print(res)
