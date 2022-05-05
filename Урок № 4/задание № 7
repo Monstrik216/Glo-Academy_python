@@ -1,1 +1,9 @@
-
+print('Введите одно восьмизначное целое положительное число и нажмите Enter')
+num = int(input())
+first = num % 10
+print(first)
+second = num % 100 // 10
+print(second)
+thind = num % 1000 // 100
+print(thind)
+print('итого:', first + second + thind)
