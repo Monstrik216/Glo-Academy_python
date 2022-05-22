@@ -7,3 +7,4 @@ if sum == sum2:
 else:
     print('Билет', num, 'НЕсчастливый')
     
+
