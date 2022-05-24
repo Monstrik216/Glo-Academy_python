@@ -1,1 +1,10 @@
-
+import math
+print('Введите email адрес:')
+email = input()
+if email.count('@') == 1 and email[0] != '@'\
+   and email.count('.') > 0 \
+   and email.rfind('.') > email.rfind('@'):
+ print("Проверка пройдена, адрес корректный")
+else:
+ print("Провера не пройдена, адрес НЕкорректный")
+ 
