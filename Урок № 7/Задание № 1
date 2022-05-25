@@ -1,1 +1,3 @@
-
+print('Напишите программу, которая выводит "Hello, GloAcademy!" (без кавычек) 25 раз.')
+for a in range(25):
+    print('Hello, GloAcademy!')
