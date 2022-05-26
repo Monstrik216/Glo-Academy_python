@@ -1,1 +1,23 @@
+print('Введите 3 числа: на что умножать(4) и диаразон от(2) и до(9)')
+M = int(input())
 
+a = int(input())
+
+b = int(input())
+
+if a <= 0 and b <= 0:
+
+    print("Ошибка! ")
+
+elif b<= a:
+
+    print("Ошибка!")
+
+else:
+
+    print ("Результат:")
+
+    for a in range(a - 1, b):
+            a += 1
+
+            print(M, "x", a, "=", M * a)
