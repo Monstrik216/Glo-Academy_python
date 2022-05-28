@@ -1,1 +1,11 @@
-
+print('введите через enter 5 2 5 4 7 3  или 5 1 5 3 3 21 ')
+n = int(input())
+total = 0
+for i in range(n):
+    number = int(input())
+    if number % 2 != 0:
+        total += 1
+if total == n:
+    print('YES')
+else:
+    print('NO')
