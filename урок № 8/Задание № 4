@@ -1,1 +1,30 @@
+import math
+print('Введите натуральное число:')
+n = int(input())
+max_digit = 0
+min_digit = n
+total = 0
+while n != 0:
+      digit = n % 10
+      if digit > max_digit:
+            max_digit = digit
+      if digit < min_digit:
+            min_digit = digit
+      n = n // 10
+print('Минимальная число:', max_digit)
+print('Максимальная число: ', min_digit)
 
+print('Введите натуральное число:')
+n = int(input())
+max_digit = 0
+min_digit = n
+total = 0
+while n != 0:
+      digit = n % 10
+      if digit > max_digit:
+            max_digit = digit
+      if digit < min_digit:
+            min_digit = digit
+      n = n // 10
+print('Минимальная число :', max_digit)
+print('Максимальная число :', min_digit)
