@@ -1,1 +1,41 @@
+print('Введите число:')
+a = int(input())
+flag = 0
+while a > 0:
+    n = int(a % 10)
+    if n == 1:
+        flag = 1
+        break
+    a = a // 10
+if flag == 1:
+    print('Yes', 'содержит введенное число цифру 1 :')
+else:
+    print('No', 'не содержит введенное число цифру 1 :')
+    
+print('Введите число:')
+a = int(input())
+flag = 0
+while a > 0:
+        n = int(a % 10)
+        if n == 1:
+            flag = 1
+            break
+        a = a // 10
+if flag == 1:
+        print('Yes', 'содержит введенное число цифру 1 :')
+else:
+        print('No', 'не содержит введенное число цифру 1 :')
 
+print('Введите число:')
+a = int(input())
+flag = 0
+while a > 0:
+    n = int(a % 10)
+    if n == 1:
+            flag = 1
+            break
+    a = a // 10
+if flag == 1:
+            print('Yes', 'содержит введенное число цифру 1 :')
+else:
+            print('No', 'не содержит введенное число цифру 1 :')        
