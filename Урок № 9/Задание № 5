@@ -1,1 +1,6 @@
+print('Условие:выведите следующее с помощью вложенных циклов')
+for a in range(7):
+    for i in range(6):
+        print(2, end=' ')
+    print()
 
