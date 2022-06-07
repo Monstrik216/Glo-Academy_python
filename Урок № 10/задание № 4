@@ -1,1 +1,6 @@
-
+s = input("Введите букву:")
+if 65 <= ord(s) <= 90:
+    s = s.lower()
+elif 97 <= ord(s) <= 122:
+    s = s.upper()
+print(s)
