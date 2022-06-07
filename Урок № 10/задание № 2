@@ -1,1 +1,6 @@
-
+print( 'Введите число:')
+s = input()
+if s.isdigit():
+  print('YES')
+else:
+  print('NO')
