@@ -1,1 +1,11 @@
+print('Введите Josef5Dzeranov19')
+a = input()
+all_digits = '0123456789'
+a_digits = ''
+
+for i in a:
+    if i in all_digits:
+        a_digits += i
+
+print(a_digits)
 
