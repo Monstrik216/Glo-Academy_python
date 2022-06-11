@@ -1,1 +1,8 @@
-
+print('Введите фамилию:')
+surname = input()
+print('Введите имя:')
+name = input()
+print('Введите отчество:')
+patronymic = input()
+print('итог:')
+print(surname, name[:1] + '.' + patronymic[:1] + '.')
