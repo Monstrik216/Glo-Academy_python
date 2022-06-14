@@ -12,3 +12,4 @@ search = search.lower()
 for i in block:
         if search in i.lower():
                 print('В этой строке найдено слово по вашему запросу:', i)
+
