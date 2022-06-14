@@ -1,1 +1,14 @@
-
+print('Это поисковая система.Для поиска Вам нужно ввести данные.')
+print('Введите число:')
+n = int(input())
+block = []
+for r in range(n):
+        print('Введите строку:', r + 1)
+        r = (input())
+        block.append(r)
+print('Введите запрос:')
+search = input()
+search = search.lower()
+for i in block:
+        if search in i.lower():
+                print('В этой строке найдено слово по вашему запросу:', i)
