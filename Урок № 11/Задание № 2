@@ -1,1 +1,6 @@
-
+print('Эта программа делит на части aдрес к файлу в операционной системе Windows. ')
+print('Введите полный адрес к файлу :')
+address_Windows = input()
+line = address_Windows.split(chr(92))
+print(' Итого :')
+print(*line, sep='\n')
