@@ -1,1 +1,9 @@
-
+print('Эта программа выводит те элементы, которые встречаются в списке только один раз.')
+print('Введите список чисел, разделенных пробелом: ')
+numbers = input().split()
+if len(numbers) > 0:
+ for number in numbers:
+        if numbers.count(number) == 1:
+            print(number, end=' ')
+else:
+    print('Ошибка')
